@@ -1,0 +1,30 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+
+target "ChecklistIt" do
+    pod 'GoogleMaps'
+    pod 'SnapKit'
+    pod 'KeychainAccess'
+    pod 'Alamofire'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxAlamofire'
+    pod 'RxGesture'
+
+    inherit! :search_paths
+end
+
+target "ChecklistItTests" do
+    pod 'GoogleMaps'
+    pod 'SnapKit'
+    pod 'KeychainAccess'
+    pod 'Alamofire'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxAlamofire'
+    pod 'RxGesture'
+
+    inherit! :search_paths
+end

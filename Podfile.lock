@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.3.0)
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - KeychainAccess (3.0.1)
+  - RxAlamofire (3.0.2):
+    - RxAlamofire/Core (= 3.0.2)
+  - RxAlamofire/Core (3.0.2):
+    - Alamofire (~> 4.0)
+    - RxSwift (~> 3.0)
+  - RxCocoa (3.1.0):
+    - RxSwift (~> 3.1)
+  - RxGesture (0.2.1):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.1.0)
+  - SnapKit (3.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - KeychainAccess
+  - RxAlamofire
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  KeychainAccess: 017ea25e313a49eda10bb19b0bb0760fb1edfe1a
+  RxAlamofire: bc53604b29fd2d220cfaa490c736cc4500819f34
+  RxCocoa: 50d7564866da9299161e86a263ce12a0873904d8
+  RxGesture: 26b8dbfce16f0cf6594e41a4b39d6180cad4cf3c
+  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+
+PODFILE CHECKSUM: 2d15908361dfd3d4ee81aecfdda3aeb74599820d
+
+COCOAPODS: 1.1.1
